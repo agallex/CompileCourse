@@ -1,0 +1,32 @@
+#pragma once
+
+// base_elements
+#include "BasicList.hpp"
+// program
+#include "source/program/Program.hpp"
+#include "source/program/MainClass.hpp"
+#include "source/program/ClassDeclList.hpp"
+// assignments
+#include "source/assignments/Statement.hpp"
+#include "source/assignments/AssertStmt.hpp"
+#include "source/assignments/LocalVarDeclStmt.hpp"
+#include "source/assignments/StmtListStmt.hpp"
+#include "source/assignments/ConditionalStmt.hpp"
+#include "source/assignments/PrintStmt.hpp"
+#include "source/assignments/StmtList.hpp"
+#include "source/assignments/AssignmentStmt.hpp"
+// Expr
+#include "source/Expr/Expression.hpp"
+#include "source/Expr/BinOpExpr.hpp"
+#include "source/Expr/BoolConstExpr.hpp"
+#include "source/Expr/IntExpr.hpp"
+#include "source//Expr/NewExpr.hpp"
+#include "source/Expr/NotExpr.hpp"
+#include "source/Expr/IdentExpr.hpp"
+// Decl
+#include "source/Decl/Decl.hpp"
+#include "source/Decl/VarDecl.hpp"
+#include "source/Decl/ClassDecl.hpp"
+#include "source/Decl/DeclList.hpp"
+// value categories
+#include "source/visitors/Lvalue.hpp"
